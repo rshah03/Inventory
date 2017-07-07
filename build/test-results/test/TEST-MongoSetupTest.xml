@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MongoSetupTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-07-07T03:44:54" hostname="MacBook-Air-2.local" time="0.421">
+  <properties/>
+  <testcase name="canary" classname="MongoSetupTest" time="0.361"/>
+  <testcase name="clientHasDatabase" classname="MongoSetupTest" time="0.004"/>
+  <testcase name="mongoClientWasCreatedAtCorrectPoint" classname="MongoSetupTest" time="0.055"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
