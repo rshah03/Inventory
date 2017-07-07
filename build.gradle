@@ -19,13 +19,17 @@ compileTestJava {
     options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation" << "-Werror"
 }
 
-sourceSets.main.java.srcDirs = ['src']
-sourceSets.test.java.srcDirs = ['tests']
+sourceSets.main.java.srcDirs = ['Inventory/src']
+sourceSets.test.java.srcDirs = ['Inventory/tests']
+
+test {
+    finalizedBy jacocoTestReport
+}
 
 jacocoTestReport {
     doFirst{
         classDirectories = fileTree(
-                dir: './build/classes/main/app',
+                dir: './build/classes/main/',
                 excludes: ['**/ui/*.class']
         )
     }
