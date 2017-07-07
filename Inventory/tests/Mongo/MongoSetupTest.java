@@ -1,3 +1,5 @@
+package Mongo;
+
 import com.mongodb.Mongo;
 import mongo.MongoSetup;
 import org.junit.*;

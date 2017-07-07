@@ -6,8 +6,8 @@ import com.mongodb.MongoClient;
 import java.net.UnknownHostException;
 
 public class MongoSetup {
-    private MongoClient client;
-    private DB database;
+    public MongoClient client;
+    public DB database;
 
     public MongoSetup() {
         try {
